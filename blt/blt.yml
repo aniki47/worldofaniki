@@ -12,8 +12,8 @@
 project:
   machine_name: woa
   # Used for enforcing correct git commit msg syntax.
-  prefix: BLT
-  human_name: 'BLTed 10'
+  prefix: WOA
+  human_name: 'World of Aniki'
   profile:
     name: lightning
   # This will be used as the local uri for all developers.
