@@ -1,0 +1,53 @@
+{
+  "name": "bstp",
+  "version": "1.0.0",
+  "description": "<!-- @file Instructions for subtheming using the Sass Starterkit. --> <!-- @defgroup sub_theming_sass --> <!-- @ingroup sub_theming --> # Sass Starterkit",
+  "main": "index.js",
+  "browserslist": [
+    "last 4 version",
+    "> 2%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "scripts": {
+    "build": "webpack --config ./config/webpack.prod.js",
+    "watch": "webpack --watch --progress --config ./config/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^0.23.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-scss": "^3.12.0",
+    "stylelint-webpack-plugin": "^1.1.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  }
+}

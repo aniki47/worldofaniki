@@ -1,0 +1,13 @@
+// Base
+@import 'base/_base';
+@import 'base/_variables';
+@import 'base/_media';
+
+// Components
+// TODO: Remove temporary items later
+@import 'components/_hero_block';
+@import 'components/_front_content';
+
+// Layouts
+@import 'layouts/_layouts_base.scss';
+@import 'layouts/two_columns/_two_columns';
