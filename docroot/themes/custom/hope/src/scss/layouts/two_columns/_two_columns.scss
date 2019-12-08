@@ -1,0 +1,18 @@
+// CSS for 2 Column Layouts
+
+
+/**
+ * Two Columns 50/50 Layout
+ */
+
+.layout__region--first {
+  .left-wrapper {
+    text-align: center;
+  }
+}
+
+.layout__region--second {
+  .right-wrapper {
+    padding: 40px;
+  }
+}

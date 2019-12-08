@@ -1,0 +1,21 @@
+{
+  parser: "babel-eslint",
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+  },
+  "globals": {
+    "Drupal": true,
+    "drupalSettings": true,
+  },
+  "rules": {
+    // Errors.
+    "linebreak-style": [2, "unix"],
+    "lines-around-comment": [2, {"beforeBlockComment": true, "afterBlockComment": false}],
+    "no-multi-spaces": 2,
+    "spaced-comment": [2, "always"],
+    "yoda": [2, "never"],
+  },
+  //"extends": ["airbnb-base"]
+}

@@ -1,0 +1,97 @@
+// Temporary CSS for Front page left-side content
+
+#block-backgroundimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url(/themes/custom/hope/images/anikkyoto.jpg);
+  background-size: cover;
+  background-position: center center;
+  &:after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 23, 23, 0.6);
+    position: absolute;
+    left: 0px;
+  }
+}
+
+
+.greetings p {
+
+}
+.parent-wrapper{
+  display:table;
+  width: 100%;
+  height: 686px;
+  .greetings {
+    margin-top: 40%;
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+
+    h2{
+      color: $white;
+      margin-top: 0px;
+    }
+
+    p {
+      // TODO Fix static value
+      font-size: 20px;
+      color: $white;
+
+      strong {
+        color: #fff200;
+      }
+    }
+  }
+}
+
+
+.social-info {
+
+  margin-top: 10px;
+
+  a {
+    color: #fff200;
+    margin-right: 15px;
+    text-decoration: none;
+    -webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+
+    em{
+      font-size: 1.4em;
+      -webkit-transition: all 0.5s; /* Safari */
+      transition: all 0.5s;
+    }
+  }
+}
+
+em.fa-twitter-square {
+  &:hover {
+    color: #00acee;
+  }
+}
+em.fa-facebook-square {
+  &:hover {
+    color: #3b5998;
+  }
+}
+em.fa-linkedin {
+  &:hover {
+    color: #0077b5;
+  }
+}
+em.fa-instagram {
+  &:hover {
+    color: #df193d;
+  }
+}

@@ -1,0 +1,59 @@
+/**
+ * Media Queries for the Hope theme
+ */
+
+/*
+1) 0 < 767
+ */
+
+
+@media screen and (max-width: 767px){
+  /* Left Side */
+  .left-wrapper {
+    padding: 0px;
+    position: inherit;
+    background: center center;
+    width: 100%;
+  }
+  .mailto-but:before{
+    left: 7px;
+  }
+  .mailto-but{
+    padding-left: 35px;
+  }
+
+  em.fa.fa-phone-square {
+  color: #4f9e2e;
+  }
+  em.fa.fa-facebook {
+    color: #3b5998;
+  }
+  em.fa.fa-linkedin-square {
+    color: #0077b5;
+  }
+  em.fa.fa-instagram {
+    color: #df193d;
+  }
+
+  /* Right Side */
+  // TODO Fix important
+  .right-wrapper {
+      ul.bio-type li{
+      float: none !important;
+      width: 100% !important;
+    }
+    li.heading{
+      margin-bottom: 10px;
+    }
+    li.heading h4:after{
+      width: 4%;
+    }
+    h4.big-letter:after{
+      width: 5% !important;
+    }
+    h4.medium-letter:after, h4.small-letter:after {
+    width: 4% !important;
+    }
+  }
+
+}

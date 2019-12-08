@@ -1,0 +1,11 @@
+core: 8.x
+type: theme
+base theme: classy
+
+name: 'Hope'
+description: 'This theme is a hope for World of Aniki.'
+
+libraries:
+  - 'hope/bootstrap'
+  - 'hope/global-styling'
+  - 'hope/font-awesome'
