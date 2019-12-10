@@ -27,6 +27,7 @@ drush/Commands
 docroot/themes/custom/*/node_modules
 docroot/themes/custom/*/css
 docroot/themes/custom/*/styleguide
+docroot/themes/custom/*/build
 
 # Ignore build artifacts
 deployment_identifier

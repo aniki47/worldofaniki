@@ -39,8 +39,7 @@
   // TODO Fix important
   .layout__region--second {
     .right-wrapper {
-      height: auto;
-      overflow: none;
+      height: auto !important;
       ul.bio-type li{
         float: none !important;
         width: 100% !important;
