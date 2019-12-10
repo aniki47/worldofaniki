@@ -74,3 +74,13 @@ modules:
     uninstall:
       - devel
       - views_ui
+command-hooks:
+  post-deploy-build:
+    dir: ${docroot}/themes/custom/hope
+    command: 'npm run build'
+  frontend-reqs:
+    dir: ${docroot}/themes/custom/hope
+    command: 'npm install'
+  frontend-assets:
+    dir: ${docroot}/themes/custom/hope
+    command: 'npm run build'
