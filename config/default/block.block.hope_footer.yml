@@ -1,4 +1,4 @@
-uuid: 1637e7c9-102d-4303-a835-831b8c81d98c
+uuid: c16aa763-7d25-4c48-b21b-24cffd133971
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - hope
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: bartik_footer
-theme: bartik
-region: footer_fifth
+id: hope_footer
+theme: hope
+region: sidebar_first
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

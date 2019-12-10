@@ -1,15 +1,15 @@
-uuid: bcde97d5-c2a2-476b-bb4f-08323d30f7e2
+uuid: 0c049116-e3cf-4fc5-8440-7cf2f7f0749e
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - hope
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: bartik_breadcrumbs
-theme: bartik
+id: hope_breadcrumbs
+theme: hope
 region: breadcrumb
 weight: 0
 provider: null

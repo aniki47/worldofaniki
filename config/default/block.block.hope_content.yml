@@ -1,15 +1,15 @@
-uuid: 4e821fa3-95d0-4056-8437-dd9188d3b543
+uuid: 36dc1da4-bd95-4168-a046-c39a6f6fbe09
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - hope
 _core:
   default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: bartik_content
-theme: bartik
+id: hope_content
+theme: hope
 region: content
 weight: 0
 provider: null

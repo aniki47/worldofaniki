@@ -8,4 +8,7 @@ id: front
 label: 'Front page'
 tags:
   canonical_url: '[site:url]'
+  description: 'A website created by Aniket More, an Indian from Pune city trying to make it big in Tokyo, Japan using his Japanese language skills to develop various websites using Drupal CMS.'
+  keywords: 'Aniket More, anikiinjapan, drupal, japanese, pune'
   shortlink: '[site:url]'
+  title: '[site:name]'
