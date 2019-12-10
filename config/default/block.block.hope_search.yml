@@ -1,4 +1,4 @@
-uuid: c32c2b43-07fd-4f29-8a6a-1a31d7bd1d7a
+uuid: 95c17b88-5945-4b3a-91f0-352b70fba6bc
 langcode: en
 status: true
 dependencies:
@@ -8,11 +8,11 @@ dependencies:
     - system
     - views
   theme:
-    - bartik
+    - hope
 _core:
   default_config_hash: UDHpza-uTXT90uUqIrgPDBW4XrHBA1XpzSBQyyRB2Yg
-id: bartik_search
-theme: bartik
+id: hope_search
+theme: hope
 region: content
 weight: 0
 provider: null

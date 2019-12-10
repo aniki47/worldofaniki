@@ -1,13 +1,15 @@
-uuid: 6c11d76a-f252-4fe1-938d-6e153a0af0e7
+uuid: 68207922-3fcf-4c2f-8f1f-d888d5c4ecc6
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
-    - bartik
+    - hope
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
-id: bartik_page_title
-theme: bartik
+id: hope_page_title
+theme: hope
 region: content
 weight: -50
 provider: null
@@ -17,4 +19,9 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
