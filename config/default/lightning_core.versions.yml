@@ -17,6 +17,7 @@ content_moderation: 8.7.10
 contextual: 8.7.10
 crop: 2.0.0-rc1
 ctools: 3.2.0
+custom_login: 0.0.0
 datetime: 8.7.10
 dblog: 8.7.10
 devel: 2.1.0

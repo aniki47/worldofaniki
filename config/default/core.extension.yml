@@ -18,6 +18,7 @@ module:
   contextual: 0
   crop: 0
   ctools: 0
+  custom_login: 0
   datetime: 0
   dblog: 0
   devel: 0
