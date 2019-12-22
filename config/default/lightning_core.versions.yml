@@ -33,8 +33,10 @@ field: 8.7.10
 field_ui: 8.7.10
 file: 8.7.10
 filter: 8.7.10
+google_analytics: 3.0.0
 help: 8.7.10
 history: 8.7.10
+honeypot: 1.29.0
 image: 8.7.10
 image_widget_crop: 2.2.0
 inline_entity_form: 1.0.0-rc2

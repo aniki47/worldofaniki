@@ -12,6 +12,7 @@ layout:
   -
     layout_id: layout_twocol_section
     layout_settings:
+      label: ''
       column_widths: 67-33
     components:
       54ecf9a4-9d35-49a3-828a-50986ed55ae6:
