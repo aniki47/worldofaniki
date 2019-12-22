@@ -1,0 +1,5 @@
+name: Custom Login
+type: module
+description: This module is used to change the route of the user login page.
+package: Custom
+core: 8.x
