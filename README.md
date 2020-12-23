@@ -97,7 +97,7 @@ See [BLT's Frontend docs](https://docs.acquia.com/blt/developer/frontend/) to se
 After the initial theme setup you can configure `blt/blt.yml` to install and configure your frontend dependencies with `blt setup`.
 
 2. Pull Files locally.
-Use BLT to pull all files down from your Cloud environment.
+Use BLT to pull all the files down from your Cloud environment.
 
    ```
    $ blt drupal:sync:files
